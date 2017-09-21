@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+header {
+  z-index: 1;
+  height:69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+a {
+  color: seashell;
+}
+.flex-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
